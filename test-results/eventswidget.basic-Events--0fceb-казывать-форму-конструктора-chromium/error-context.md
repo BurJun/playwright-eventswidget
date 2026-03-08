@@ -1,0 +1,217 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - link:
+        - /url: ""
+    - link "Banner" [ref=e4] [cursor=pointer]:
+      - /url: https://3snet.co/promocode/
+      - img "Banner" [ref=e5]
+  - generic [ref=e6]:
+    - banner [ref=e7]:
+      - generic [ref=e8]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - navigation [ref=e153]:
+          - list [ref=e154]:
+            - listitem [ref=e155]:
+              - link "Новости" [ref=e156] [cursor=pointer]:
+                - /url: /news/
+            - listitem [ref=e157]:
+              - link "Обзоры рынков" [ref=e158] [cursor=pointer]:
+                - /url: /reviews/
+            - listitem [ref=e159]:
+              - link "Спорт календарь" [ref=e160] [cursor=pointer]:
+                - /url: /sport-events-schedule/
+            - listitem [ref=e161]:
+              - generic [ref=e162] [cursor=pointer]:
+                - text: Конференции
+                - img [ref=e163]
+            - listitem [ref=e165]:
+              - generic [ref=e166] [cursor=pointer]:
+                - text: Наши сервисы
+                - img [ref=e167]
+            - listitem [ref=e169]:
+              - generic [ref=e170] [cursor=pointer]:
+                - link "Промокоды" [ref=e171]:
+                  - /url: /promocodes/
+                - img [ref=e172]
+            - listitem [ref=e174]:
+              - link "База знаний" [ref=e175] [cursor=pointer]:
+                - /url: /glossary/
+            - listitem [ref=e176]:
+              - generic [ref=e177] [cursor=pointer]:
+                - text: Работа в Igaming
+                - img [ref=e178]
+            - listitem [ref=e180]:
+              - generic [ref=e181] [cursor=pointer]:
+                - text: iGaming компании
+                - img [ref=e182]
+        - button "Поиск" [ref=e185] [cursor=pointer]:
+          - img [ref=e186]
+          - generic [ref=e188]: Поиск по сайту...
+        - listitem [ref=e190]:
+          - generic [ref=e191] [cursor=pointer]:
+            - img [ref=e192]
+            - generic [ref=e194]: RU
+            - img [ref=e195]
+    - generic [ref=e197]:
+      - link "Главная" [ref=e199] [cursor=pointer]:
+        - /url: https://dev.3snet.info
+      - generic [ref=e200]: /
+      - generic [ref=e201]: Конструктор календаря мероприятий
+    - generic [ref=e202]:
+      - generic [ref=e203]:
+        - heading "Начните создавать свой календарь мероприятий!" [level=1] [ref=e204]
+        - paragraph [ref=e206]:
+          - text: Нравится наш
+          - link "календарь мероприятий" [ref=e207] [cursor=pointer]:
+            - /url: https://dev.3snet.info/activity/
+          - generic [ref=e208]: "?"
+          - text: Хочешь такой же? Просто сформируй календарь с подходящим тебе дизайном и установи код вставки к себе на сайт.
+      - generic [ref=e209]:
+        - generic [ref=e210]:
+          - generic [ref=e211]:
+            - generic [ref=e212]:
+              - generic [ref=e213]: Шаг 1
+              - generic [ref=e214]: Выберите тематику
+              - combobox [ref=e218]:
+                - option "Выбрать тематику" [selected]
+            - generic [ref=e220]:
+              - generic [ref=e221]: Шаг 2
+              - generic [ref=e222]: Выберите страны
+              - combobox [ref=e226]:
+                - option "Все страны" [selected]
+            - generic [ref=e228]:
+              - generic [ref=e229]: Шаг 3
+              - generic [ref=e230]: Выберите размер вашего блока
+              - generic [ref=e231]:
+                - generic [ref=e232]:
+                  - generic [ref=e233]: "Ширина, px:"
+                  - textbox [ref=e234]: "230"
+                  - slider [ref=e236]: "230"
+                  - generic [ref=e239] [cursor=pointer]: на всю ширину контейнера
+                - generic [ref=e240]:
+                  - generic [ref=e241]: "Высота, px:"
+                  - textbox [ref=e242]: "240"
+                  - slider [ref=e244]: "240"
+                  - generic [ref=e247] [cursor=pointer]: на всю высоту блока
+            - generic [ref=e248]:
+              - generic [ref=e249]: Шаг 4
+              - generic [ref=e250]: Выберите цветовую гамму
+              - generic [ref=e251]:
+                - generic [ref=e253]: "Светлая тема:"
+                - generic [ref=e261]: "Темная тема:"
+          - button "Сгенерировать превью" [ref=e270] [cursor=pointer]
+        - generic [ref=e272]:
+          - generic [ref=e273]: Скопируйте сгенерированный код. При установке в HTML-код сайта разместите код как можно ближе к началу страницы. Например, в пределах тегов <head></head> или <body></body>.
+          - textbox [disabled] [ref=e274]: <iframe id="3snet-frame" src="https://3snet.info/widget-active-events/?theme=turquoise&event_group=10622&event_type=&event_country=" width="230" height="240" frameborder="0"></iframe>
+        - button "Скопировать код" [ref=e275] [cursor=pointer]
+  - generic [ref=e276]:
+    - button "Предыдущий промокод" [ref=e277] [cursor=pointer]:
+      - img [ref=e278]
+    - generic:
+      - generic:
+        - link "Промокод от Anstrex":
+          - /url: http://dev.3snet.co/promocode/anstrex/
+          - img "Промокод от Anstrex"
+      - generic:
+        - link "Промокод от RichAds":
+          - /url: http://dev.3snet.co/promocode/richads/
+          - img "Промокод от RichAds"
+      - generic:
+        - link "Промокод от Suomzilla":
+          - /url: http://dev.3snet.co/promocode/suomzilla/
+          - img "Промокод от Suomzilla"
+      - generic:
+        - link "Промокод от AdsApproved":
+          - /url: http://dev.3snet.co/promocode/adsapproved/
+          - img "Промокод от AdsApproved"
+      - generic:
+        - link "Промокод от Veilowhite":
+          - /url: http://dev.3snet.co/promocode/veilowhite/
+          - img "Промокод от Veilowhite"
+      - generic:
+        - link "Промокод от Peerclick":
+          - /url: http://dev.3snet.co/promocode/peerclick/
+          - img "Промокод от Peerclick"
+      - generic:
+        - link "ZaleyCash — новый канал выплат в 3Snet":
+          - /url: http://dev.3snet.co/promocode/zaleycash/
+          - img "ZaleyCash — новый канал выплат в 3Snet"
+      - generic:
+        - link "Промокод от Anstrex":
+          - /url: http://dev.3snet.co/promocode/anstrex/
+          - img "Промокод от Anstrex"
+      - generic:
+        - link "Промокод от RichAds":
+          - /url: http://dev.3snet.co/promocode/richads/
+          - img "Промокод от RichAds"
+      - generic:
+        - link "Промокод от Suomzilla":
+          - /url: http://dev.3snet.co/promocode/suomzilla/
+          - img "Промокод от Suomzilla"
+      - generic:
+        - link "Промокод от AdsApproved":
+          - /url: http://dev.3snet.co/promocode/adsapproved/
+          - img "Промокод от AdsApproved"
+      - generic:
+        - link "Промокод от Veilowhite":
+          - /url: http://dev.3snet.co/promocode/veilowhite/
+          - img "Промокод от Veilowhite"
+      - generic:
+        - link "Промокод от Peerclick":
+          - /url: http://dev.3snet.co/promocode/peerclick/
+          - img "Промокод от Peerclick"
+      - generic:
+        - link "ZaleyCash — новый канал выплат в 3Snet":
+          - /url: http://dev.3snet.co/promocode/zaleycash/
+          - img "ZaleyCash — новый канал выплат в 3Snet"
+    - button "Следующий промокод" [ref=e280] [cursor=pointer]:
+      - img [ref=e281]
+    - link "Все промокоды" [ref=e284] [cursor=pointer]:
+      - /url: https://dev.3snet.info/promocodes/
+  - contentinfo [ref=e285]:
+    - generic [ref=e286]:
+      - generic [ref=e287]:
+        - link [ref=e290] [cursor=pointer]:
+          - /url: https://dev.3snet.info
+        - paragraph [ref=e291]: 3SNET © 2022 - 2026
+      - generic [ref=e292]:
+        - list [ref=e293]:
+          - listitem [ref=e294]:
+            - link "Реклама на сайте" [ref=e295] [cursor=pointer]:
+              - /url: https://dev.3snet.info/cooperation/
+        - list [ref=e296]:
+          - listitem [ref=e297]:
+            - link "Контакты" [ref=e298] [cursor=pointer]:
+              - /url: https://dev.3snet.info/contacts/
+        - list [ref=e299]:
+          - listitem [ref=e300]:
+            - link "Вакансии" [ref=e301] [cursor=pointer]:
+              - /url: /igaming-job/
+      - generic [ref=e302]:
+        - list [ref=e303]:
+          - listitem [ref=e304]:
+            - link [ref=e305] [cursor=pointer]:
+              - /url: " https://t.me/cpa3snet "
+          - listitem [ref=e306]:
+            - link [ref=e307] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/3snet
+        - paragraph [ref=e308]: Все права защищены
+    - generic [ref=e310]:
+      - generic [ref=e311]: 18+
+      - paragraph [ref=e312]:
+        - text: Частичное или полное использование материалов (изображения, тексты и другой контент сайта
+        - link "3snet.info" [ref=e313] [cursor=pointer]:
+          - /url: https://3snet.info
+        - text: ) разрешается только при условии указания активной ссылки на страницу материала на Сайте.
+  - generic [ref=e315]:
+    - img [ref=e317] [cursor=pointer]
+    - link "Banner" [ref=e319] [cursor=pointer]:
+      - /url: ""
+      - img "Banner" [ref=e320]
+```

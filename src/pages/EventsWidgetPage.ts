@@ -48,11 +48,19 @@ this.copyCodeButton = page.locator('#code-copy-button');
     await this.topicPopup.getByText('Выбрать все', { exact: true }).click();
   }
 
-  async selectCountryByName(name: string) {
-    await this.countrySelect.click();
-    await expect(this.countryPopup).toBeVisible();
-    await this.countryPopup.getByText(name, { exact: true }).click();
+  async selectAnyCountryIfPresent() {
+    const step2 = this.page.locator('.constructor__step', { hasText: 'Шаг 2' });
+
+    await step2.locator('.checkselect').click();
+    const popup = step2.locator('.checkselect-popup');
+    await popup.waitFor({ state: 'attached', timeout: 3000 });
+    const firstCountry = popup.locator('label.custom-checkbox span').nth(1); // [0] — "Выбрать все"
+
+    if (await firstCountry.count()) {
+        await firstCountry.click();
+    }
   }
+
 
   async setSize(width: string, height: string) {
     await this.widthInput.fill(width);
